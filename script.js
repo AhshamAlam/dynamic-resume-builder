@@ -12,9 +12,9 @@ form.addEventListener("submit", (event) => {
     const resumeHTML = `
     <h2><b>Resume</b></h>
     <h3>Personal Information</h3>
-    <p><b>Name:</b>${name}<p>  
-    <p><b>Email:</b>${email}<p>
-    <p><b>Phone:</b>${phone}<p>
+    <p><b>Name:</b> ${name}<p>  
+    <p><b>Email:</b> ${email}<p>
+    <p><b>Phone:</b> ${phone}<p>
     
     <h3>Education</h3>
     <p>${education}</p>
